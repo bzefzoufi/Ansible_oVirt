@@ -1,0 +1,19 @@
+---
+- name: "Checking oVirt Env"
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  vars:
+     required_env:
+        ovirt: ['OVIRT_URL', 'OVIRT_USERNAME', 'OVIRT_PASSWORD']
+
+  tasks:
+    - fail: msg="Missing environment variable"
+      when: lookup('ENV', item)|default("")==""
+      with_items: "{{ required_env['ovirt'] }}"
+    - ovirt_auth:
+         url: "https://ovirt-engine.avinity.tv/ovirt-engine/api"
+         username: "bzefzoufi@ictv.com"
+         password: "ZiadW_2022"
+         insecure: true
+      loop: "{{ result.results }}"

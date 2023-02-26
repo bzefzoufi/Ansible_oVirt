@@ -1,0 +1,28 @@
+---
+- name: Shutdown oVirt VMs
+  hosts: localhost
+  gather_facts: no
+  vars:
+      # Path to the CSV file containing the VM information
+      vm_file: "./toTest.csv"
+  tasks:
+    - name: Read VM information from CSV file
+      read_csv:
+        path: "{{ vm_file }}"
+        delimiter: ","
+      register: vm_info
+    - name: Shutdown VMs
+      ovirt_vm:
+        name: "{{ item.VM_NAME }}"
+        id: "{{ item.VM_ID }}"
+        state: stopped
+        auth: "{{ ovirt_auth }}"
+      with_items: "{{ vm_info.list }}"
+    - debug:
+          var: vm_info.list
+  environment:
+    OVIRT_URL: "https://ovirt-engine.avinity.tv/ovirt-engine/api"
+    OVIRT_USERNAME: "bzefzoufi@ictv.com"
+    OVIRT_PASSWORD: "ZiadW_2022"
+  vars:
+    ovirt_auth: "env"

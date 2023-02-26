@@ -1,0 +1,16 @@
+---
+- name: "oVirt Poweroff VM"
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  vars:
+    ansible_python_interpreter: "/Users/bzefzoufi/Desktop/Repo/Ansible_oVirt/myenv/bin/python"
+  tasks:
+    - name: "Login to oVirt"
+      ovirt_auth:
+         url: "{{ lookup('env', 'OVIRT_URL') }}"
+         username: "{{ lookup('env', 'OVIRT_USERNAME') }}"
+         password: "{{ lookup('env', 'OVIRT_PASSWORD') }}"
+         ca_file: "{{ ovirt_engine_cafile | default(omit) }}"
+         insecure: "{{ engine_insecure | default(true) }}"
+- import_playbook: shutdown-vm.yml

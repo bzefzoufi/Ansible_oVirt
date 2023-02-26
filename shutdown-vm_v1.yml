@@ -1,0 +1,21 @@
+---
+- name: "Shutdown VM"
+  hosts: localhost
+
+  tasks:
+    - ovirt_vm_info:
+        pattern: name=testbadr
+        fetch_nested: yes
+        nested_attributes:
+        - guid
+      register: result
+      delegate_to: localhost
+    - debug:
+        msg: "{{ result.ovirt_vms}}"
+    - name: "Stop VMs"
+      ovirt_vm:
+         state: stopped
+         force: true
+         id: 7638dadb-8c15-41ac-8c1c-7672273fffd5
+      with_items: 
+        - testbadr
