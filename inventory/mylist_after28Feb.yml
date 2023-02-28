@@ -1,0 +1,110 @@
+---
+-
+    name: abuyanov-connector
+    id: 329c1353-e840-43c9-9809-2fe7c1ffe55f
+-
+    name: abuyanov-stbtests
+    id: c011c340-7524-4a2b-8916-05a601f0d142
+-
+    name: client-team-server
+    id: 0bff4c16-dc3b-4651-8c48-cc7fdd5e54f4
+-
+    name: fred-appcloud
+    id: fdabc788-edec-4ff9-8e9f-cd4f4c14b7e0
+-
+    name: fred-appcloud2
+    id: 8216b63c-7169-47fb-af22-53258c5f77f4
+-
+    name: ibeliaev-connector-dev
+    id: b58f1984-11b6-40a6-9e29-a4d74f6bacb7
+-
+    name: kamini-and3
+    id: 94bd081c-1085-415f-a6b2-07a5e9c04793
+-
+    name: kamini-and4
+    id: 1c737d98-eea1-4cca-a7b0-b3d4c7b5a328
+-
+    name: kamini-desktop1
+    id: e90a25d4-9eb8-47f2-8667-1e5ef2f796c1
+-
+    name: kamini-dev3
+    id: 93ad7056-6541-4900-b23a-3df8d00fb359
+-
+    name: kamini-minikube-1
+    id: 669d44a8-a8af-4763-b275-bee3b5456663
+-
+    name: mlucian-appcloud-01
+    id: 77d6eb21-f2bf-4f1d-a186-8315a3367df1
+-
+    name: monica-appcloud-1
+    id: da1ed780-65d9-4e30-a46a-69d8475d81da
+-
+    name: monica-client-build
+    id: b89c6ef0-4dfd-463f-851c-636c3246dee6
+-
+    name: mruiz-appcloud-01
+    id: 819b5360-6bed-4c0e-9e96-277b9bda6a8c
+-
+    name: mruiz-cloudtv-01
+    id: 94c5134c-d635-4a44-8a51-bbcd2db4384c
+-
+    name: mruiz-test-csm
+    id: 1a189bea-e40f-46a1-932f-f7dadc43742a
+-
+    name: mruiz-test-dev
+    id: 9abd3613-65e5-4a70-9fdf-77a549290a90
+-
+    name: mruiz-test-stitcher
+    id: eaf82268-979f-4283-8d07-cae5ea3f6afb
+-
+    name: mruiz-test-testharness
+    id: 48030fc0-1fa1-4708-a1c7-832adc989909
+-
+    name: mruiz-test-transcoder
+    id: 07a1ee55-0a4c-435f-8022-b5b4fd48c3f1
+-
+    name: mruiz-test-udc
+    id: 3141caef-0ccc-4c1d-afad-a8d9de81c311
+-
+    name: mvenselaar-dev-78
+    id: 19039bbf-492d-48df-bb73-3b951eeb5531
+-
+    name: mvenselaar-dev-csm-23
+    id: a6ec3aab-f828-4aa8-ab82-a01ad792b98b
+-
+    name: mvenselaar-xl-build
+    id: a6ec3aab-f828-4aa8-ab82-a01ad792b98b
+-
+    name: olavph-xl-build
+    id: 8565322f-786b-4787-bc93-8b4d467405a8
+-
+    name: pbeyer-appcloud-kythe
+    id: 3f63f4c5-75fa-4d7a-8718-8b000eada735
+-
+    name: pbeyer-appcloud-kythe2
+    id: 974bb939-3d42-4d02-85f0-d3e51fa46f73
+-
+    name: pbeyer-redroid
+    id: 792ff662-a781-4814-8f3f-8da14aaeff19
+-
+    name: rux-master-csm
+    id: 72e85dd4-de00-429c-bc4b-85117c7dfce9
+-
+    name: rux-master-meteo
+    id: 1b2d4d8d-2c54-45ee-89c8-cc77cbdb212a
+-
+    name: rux-master-stitcher
+    id: 0f7bcb66-1990-4917-92e7-00d5319eccc1
+-
+    name: rux-misc
+    id: a1491b08-0fe1-4f4f-a28a-f3da1615095d
+-
+    name: training3
+    id: 81def26e-b93c-45d7-a44c-4f3716631972
+-
+    name: vk-dev1
+    id: 9bf7dcfb-94eb-4130-b251-f42fe63a70c0
+-
+    name: vk-dev1-ubuntu
+    id: 9c418673-eb9d-4aa9-93c1-7fa3209157b7
+

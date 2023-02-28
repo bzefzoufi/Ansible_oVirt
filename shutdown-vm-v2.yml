@@ -1,0 +1,16 @@
+---
+- name: Shutdown oVirt VMs
+  hosts: localhost
+  gather_facts: no
+  vars:
+    ansible_python_interpreter: "/Users/bzefzoufi/Desktop/Repo/Ansible_oVirt/myenv/bin/python"
+  tasks:
+    - name: Shutdown VMs
+      ovirt_vm:
+        name: "{{ item.name }}"
+        id: "{{ item.id }}"
+        state: stopped
+        auth: "{{ ovirt_auth }}"
+      loop:
+        - { name: 'aseyedof-deploy3', id: 'a007ca98-e1ea-4302-8e9d-bfe3b5dfa2f3' }
+        - { name: 'awx-server', id: '4c880ea9-e2c6-4b47-8289-2ef971f21099' }

@@ -4,7 +4,7 @@
   gather_facts: no
   vars:
       # Path to the CSV file containing the VM information
-      vm_file: "./toTest.csv"
+      vm_file: "./totest.csv"
   tasks:
     - name: Read VM information from CSV file
       read_csv:
@@ -13,8 +13,8 @@
       register: vm_info
     - name: Shutdown VMs
       ovirt_vm:
-        name: "{{ item.VM_NAME }}"
-        id: "{{ item.VM_ID }}"
+        name: "{{ item.name }}"
+        id: "{{ item.id }}"
         state: stopped
         auth: "{{ ovirt_auth }}"
       with_items: "{{ vm_info.list }}"

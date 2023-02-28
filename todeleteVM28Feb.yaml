@@ -1,0 +1,304 @@
+---
+-
+    name: 222-ms-csm-2
+    id: 40f4ce6e-a4f6-46c5-83fb-3c4b337d8e00
+-
+    name: 222-ms-csm-3
+    id: 6aad752f-e66f-4316-a679-e7e4c1324ee7
+-
+    name: 222-ms-stitcher-2
+    id: f96988b7-3caa-41e1-bed4-c9a1947ee751
+-
+    name: abuyanov-connector
+    id: 329c1353-e840-43c9-9809-2fe7c1ffe55f
+-
+    name: abuyanov-stbtests
+    id: c011c340-7524-4a2b-8916-05a601f0d142
+-
+    name: AMX-proxy
+    id: 8093969a-f202-4c73-a5d6-8c19635a07a7
+-
+    name: awx-server
+    id: 4c880ea9-e2c6-4b47-8289-2ef971f21099
+-
+    name: cattryde-dev
+    id: 3f632466-4a83-4e7c-84bf-b8a7c9babc9f
+-
+    name: cattryde-ubu
+    id: 4c1007a5-949b-4355-a3bc-355b7f544caa
+-
+    name: cattryde-ubu20
+    id: f1051b72-aedf-4eac-90ac-36270a536d03
+-
+    name: centos
+    id: 6526ce7a-bef5-440e-9070-607aff536d96
+-
+    name: client-team-server
+    id: 0bff4c16-dc3b-4651-8c48-cc7fdd5e54f4
+-
+    name: cornel-ubuntu-16-2
+    id: 9f9ecb9c-1319-4465-b1e1-6ff29a179e3c
+-
+    name: ffmpegtemplate-testharness
+    id: 8d60497a-e016-4df4-a716-f2bf21e90f63
+-
+    name: jankees-splunk
+    id: 640da413-df9d-4524-be09-9b7ea9169d67
+-
+    name: jurgen216-parentproxy
+    id: 265a66c0-d645-4942-8ca8-8d585cbc9405
+-
+    name: jurgen220-aio
+    id: 66cc8f1a-cffa-403a-b8b8-b0b6206c9817
+-
+    name: monica-appcloud-1
+    id: da1ed780-65d9-4e30-a46a-69d8475d81da
+-
+    name: monica-client-build
+    id: b89c6ef0-4dfd-463f-851c-636c3246dee6
+-
+    name: ms-222-cache-server
+    id: 1c9446bc-dd38-4f60-baa9-390c49a326ce
+-
+    name: ms-222-content-server
+    id: 8d871617-d348-4b19-84d2-f0a36647454d
+-
+    name: ms-222-csm-1
+    id: f351d10c-e581-4a21-8e27-380f53aeef57
+-
+    name: ms-222-funnel
+    id: 8da8cb97-682a-4328-a1e8-1b9b217e8605
+-
+    name: ms-222-meteo
+    id: ceed543f-8431-481d-9e8a-bbea01e0fd30
+-
+    name: ms-222-psm
+    id: 18f1963c-25d8-4a37-988a-8ba807daf96d
+-
+    name: ms-222-scaler
+    id: 1c0b6b7a-d8dc-458b-95c6-ae9335e0f80f
+-
+    name: ms-222-transcoder
+    id: 72244ce3-d85a-4b81-909a-81acf1c34c52
+-
+    name: ms-222-udc
+    id: 4a7bae7b-66d8-4d3b-855d-8c50f68af09c
+-
+    name: ms-csm1
+    id: 62f055c6-76ab-4be4-a8f6-ab05b34e723d
+-
+    name: ms-csm2
+    id: 62207faa-c6cd-4b61-9492-0956c00f32ce
+-
+    name: ms-csm3
+    id: 268c2f45-8ebf-42db-be92-2027be70983c
+-
+    name: ms-psm
+    id: f1dd0884-8f92-4c65-9f5f-85e070fc2810
+-
+    name: ms-stitcher-1
+    id: 1353e798-3b66-4f12-a435-527cb24a37fc
+-
+    name: ms-stitcher-2
+    id: fb6fccd5-a426-407e-b63d-d0beff7ac310
+-
+    name: ms-stitcher-3
+    id: d56664b4-6cdb-47a2-9fd8-50a2c97302bd
+-
+    name: ms-testharness
+    id: 1419894c-cbef-4d5d-a785-aca6ca66ce72
+-
+    name: ms-transcoder
+    id: fa9af7da-6494-4961-b6e9-dcda5b93806d
+-
+    name: ms-udc
+    id: 19039bbf-492d-48df-bb73-3b951eeb5531
+-
+    name: mvostrikov-ACC-csm
+    id: 226b752c-c528-4c09-b117-be41ad3de52c
+-
+    name: mvostrikov-ACC-psm
+    id: ecb6e1b0-9070-4e2b-83a1-52d4cf54c521
+-
+    name: mvostrikov-ACC-stitcher
+    id: 4e1b1efe-99f3-4a89-9a93-2d9b2474bcc0
+-
+    name: mvostrikov-ACC-testharness
+    id: 488d31fd-1890-475d-90a0-726ce0df52bf
+-
+    name: mvostrikov-ACC-udc
+    id: c73511a8-09b2-42fe-b3b2-1d597c0016cd
+-
+    name: mvostrikov-smoke-th-csm-1
+    id: 12eb7ff3-f041-4ba9-9aaf-a14222e38123
+-
+    name: mvostrikov-smoke-th-csm-2
+    id: 1b4958e9-789d-4bd4-ad02-3c8ea3ba34e8
+-
+    name: mvostrikov-smoke-th-csm-3
+    id: e7d11cf4-0c2b-4cb5-bc92-4635047801f2
+-
+    name: mvostrikov-smoke-th-funnel
+    id: 9fc0efc6-c567-4b1b-9cfd-e6c37f05a8f3
+-
+    name: mvostrikov-smoke-th-insight
+    id: a11a92cf-39b4-4d9d-9980-331cefed32b6
+-
+    name: mvostrikov-smoke-th-psm
+    id: eb209ebe-eeb5-4f1d-a7c6-19aa0e750464
+-
+    name: mvostrikov-smoke-th-scalermgr1
+    id: 51cd04c8-192b-4f7d-aa3b-b4f81521f562
+-
+    name: mvostrikov-smoke-th-scalermgr2
+    id: 945e347f-81d5-4df2-a10c-b1eda0d73540
+-
+    name: mvostrikov-smoke-th-scalernode1
+    id: 3eda2a33-5fe1-44a1-b5ec-c7a07d2a8103
+-
+    name: mvostrikov-smoke-th-scalernode2
+    id: c8bb6df4-9789-4521-b3bd-056af0bd9fbe
+-
+    name: mvostrikov-smoke-th-stitcher
+    id: c9ffbb72-3f31-42da-9ae0-5c86d600c825
+-
+    name: mvostrikov-smoke-th-testharness
+    id: 77188602-1dfe-4ead-928e-938372197e59
+-
+    name: mvostrikov-smoke-th-transcoder
+    id: 808b1450-03e6-466b-a91b-5f8c0e3ed468
+-
+    name: mvostrikov-smoke-th-udc
+    id: 138d4278-122b-4724-bf08-3c3c63fe9454
+-
+    name: mvostrikov-th-csm
+    id: 0109329d-3d6d-4a4f-839b-26d003abe26a
+-
+    name: mvostrikov-th-psm
+    id: 415eec77-5e69-46b1-bf40-86164c45253d
+-
+    name: mvostrikov-th-stitcher
+    id: 9e2030b4-27ea-40f0-88dc-f7ccdaa40a22
+-
+    name: mvostrikov-th-testharness
+    id: 671be0a1-7bb7-4c53-89da-0b76369a0d10
+-
+    name: mvostrikov-th-transcoder
+    id: b494d12c-3dbe-49f9-8f9f-4f5b306aa848
+-
+    name: mvostrikov-th-udc
+    id: 5b643dc8-8e31-453c-92c3-b241a6f8a751
+-
+    name: mvostrikov-ubuntu-test
+    id: b31c542b-5b58-4980-a4a6-5829f65b589d
+-
+    name: obalas-performance
+    id: 7333b6a9-fdd2-40de-9d30-aa0e3ff92481
+-
+    name: olavph-xxl-build-2
+    id: b2c90734-d36d-47c8-92ab-4f490f9eeaaf
+-
+    name: onur-78-dev-2
+    id: ebffe1aa-1927-4c77-86ed-61eeaee6c0ea
+-
+    name: onur-ov-csm
+    id: dccaf437-cef6-4594-a8af-5f06da839c00
+-
+    name: pbeyer-appcloud-kythe
+    id: 3f63f4c5-75fa-4d7a-8718-8b000eada735
+-
+    name: pbeyer-redroid
+    id: 792ff662-a781-4814-8f3f-8da14aaeff19
+-
+    name: rux-master-csm
+    id: 72e85dd4-de00-429c-bc4b-85117c7dfce9
+-
+    name: rux-master-meteo
+    id: 1b2d4d8d-2c54-45ee-89c8-cc77cbdb212a
+-
+    name: rux-master-stitcher
+    id: 0f7bcb66-1990-4917-92e7-00d5319eccc1
+-
+    name: rux-misc
+    id: a1491b08-0fe1-4f4f-a28a-f3da1615095d
+-
+    name: servsym-assets-new
+    id: 1c694e07-e4e2-498b-a147-4e46ebe8afd7
+-
+    name: srmrtsp-stub-211
+    id: 6365fea1-ff0b-4024-9dd5-bd2279eb013c
+-
+    name: sum-meteo12
+    id: 9c7a8918-b63b-4e41-b600-d96639b8f81f
+-
+    name: suma-0005
+    id: ec6a25d3-abd3-414e-8f3f-383aef1f5ef9
+-
+    name: suma-ac-test1
+    id: 52a6e08b-2516-436a-ab89-b90e0580dc9a
+-
+    name: suma-cobra
+    id: de4f7fb8-6400-412f-897c-ce026fbefc18
+-
+    name: suma-meteo
+    id: f7c647d6-f12d-443c-b539-1d6c9a7d4818
+-
+    name: suma-testharness-223
+    id: 7b19f4f9-d937-46de-8648-e9cfbb4f5520
+-
+    name: sungureanu-connector
+    id: 42a1449d-edc3-4528-8c87-f60c32a62559
+-
+    name: testharness2-snBDSK7Gd-csm
+    id: 634e6a26-383e-4d3c-b89c-b8169353ba68
+-
+    name: testharness2-snBDSK7Gd-funnel
+    id: 4636c0d9-a9f4-4009-95a9-9290acc522ab
+-
+    name: testharness2-snBDSK7Gd-psm
+    id: bd8ca048-b60d-4a6a-85b5-d61bfa0694ae
+-
+    name: testharness2-snBDSK7Gd-stitcher
+    id: ee7cdf87-1da1-46e6-83d3-7f5716353d4a
+-
+    name: testharness2-snBDSK7Gd-testharness
+    id: a548623e-b825-4507-87a7-66f3284ddee2
+-
+    name: testharness2-snBDSK7Gd-transcoder
+    id: eda8ba50-b288-465b-97f0-7100ce37efa1
+-
+    name: testharness2-snBDSK7Gd-udc
+    id: b8918f8e-25d3-4ad4-b899-3f462923edc4
+-
+    name: the-awx-server
+    id: 958736fb-0fab-4fc0-a69a-617ebdda124e
+-
+    name: tkende-cobra
+    id: 51578ff9-afe0-4551-bc73-ed3273e5565f
+-
+    name: ubuntu16-test-rkemaster-01
+    id: d132623e-144c-40f8-8a36-1753315f6d48
+-
+    name: ubuntu18-ipv6test-ksmaster-01
+    id: 0db204fc-425e-4a69-a4ab-f9e436a5b458
+-
+    name: ubuntu18-ipv6test-ksworker-03
+    id: 79be9cfd-7873-4e4a-aafa-20f8d01002fe
+-
+    name: ubuntu18-ipv6test-ksworker-04
+    id: 7f89304f-ec05-4bbb-9edf-68c66913f786
+-
+    name: ubuntu18-test-ksmaster-01
+    id: 3f17973c-df80-4cf4-af8f-b064cee05f84
+-
+    name: ubuntu18-test-ksworker-01
+    id: 2a806abd-fabf-4adf-9b02-4886d31e1a59
+-
+    name: ubuntu18-test-ksworker-02
+    id: ea891109-f603-4dcf-a7ec-af58d81e3fae
+-
+    name: vk-dev1
+    id: 9bf7dcfb-94eb-4130-b251-f42fe63a70c0
+-
+    name: vk-dev1-ubuntu
+    id: 9c418673-eb9d-4aa9-93c1-7fa3209157b7

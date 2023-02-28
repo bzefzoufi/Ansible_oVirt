@@ -1,0 +1,21 @@
+---
+- name: Kill oVirt VMs
+  hosts: localhost
+  gather_facts: no
+  vars:
+    ansible_python_interpreter: "/Users/bzefzoufi/Desktop/Repo/Ansible_oVirt/myenv/bin/python"
+  tasks:
+    - name: Read YAML file
+      slurp:
+        src: inventory/mylist_after28Feb.yml 
+      register: file_content
+    - name: Parse YAML file
+      set_fact:
+        my_list: "{{ file_content.content | b64decode | from_yaml }}"
+    - name: Shutdown VMs
+      ovirt_vm:
+        name: "{{ item.name }}"
+        state: absent
+        force: true
+        auth: "{{ ovirt_auth }}"
+      with_items: "{{ my_list }}"

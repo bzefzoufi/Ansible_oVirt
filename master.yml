@@ -5,12 +5,22 @@
   gather_facts: false
   vars:
     ansible_python_interpreter: "/Users/bzefzoufi/Desktop/Repo/Ansible_oVirt/myenv/bin/python"
+  vars_prompt:
+    - name: "my_playbook" 
+      prompt: "Please enter your choice, if you want to shutdown VM enter 1, if you want to delete VMs then 2"
+      private: false
+    - name: my_file
+      prompt: "Please give location of your list, it should be in yaml format with ID of VMs"
+      private: false
   tasks:
     - name: "Login to oVirt"
       ovirt_auth:
-         url: "{{ lookup('env', 'OVIRT_URL') }}"
-         username: "{{ lookup('env', 'OVIRT_USERNAME') }}"
-         password: "{{ lookup('env', 'OVIRT_PASSWORD') }}"
-         ca_file: "{{ ovirt_engine_cafile | default(omit) }}"
-         insecure: "{{ engine_insecure | default(true) }}"
-- import_playbook: shutdown-vm.yml
+        url: "{{ lookup('env', 'OVIRT_URL') }}"
+        username: "{{ lookup('env', 'OVIRT_USERNAME') }}"
+        password: "{{ lookup('env', 'OVIRT_PASSWORD') }}"
+        ca_file: "{{ ovirt_engine_cafile | default(omit) }}"
+        insecure: "{{ engine_insecure | default(true) }}"
+- import_playbook: kill-vm.yml
+
+    
+  
